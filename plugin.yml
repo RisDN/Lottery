@@ -1,0 +1,11 @@
+name: Lottery
+version: 1.0.0
+api-version: 1.18
+main: hu.ris.lottery.Main
+
+depend: [Vault]
+
+commands:
+  lottery:
+    description: Lottó plugin
+    aliases: [lotto]

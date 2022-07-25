@@ -1,0 +1,31 @@
+# Lottery plugin konfiguráció #
+
+prefix: '&d&l[&5Cica Lottó&d&l]'
+
+# Egy szelvény ára
+price: 500
+
+# Egy játékos hány 
+# lottót vehet maximum?
+max: 3
+
+# Sorsolás ezekben az
+# időpontokban:
+# 'óra:perc'
+idopontok:
+  - '22:24'
+
+# Parancsok amelyek lefutnak a nyertes nevével.
+nyertesParancsok:
+  - 'give %nyertes% woodenshovel 1 0 name:Nyertél!'
+
+uzenetek:
+  nincsjogod: '%prefix% &cNincs jogod ehhez!'
+  max: '%prefix% &cNem vásárolhatsz &f%max% &cszelvénynél többet!'
+  sikeres: '%prefix% &aSikeresen vásároltál egy lottó szelvényt &f%ar%&a dollárért! Sok szerencsét!'
+  vasarolt: '%prefix% &f%kicsoda%&a sikeresen vásárolt egy lottó szelvényt.'
+  nincselegendo: '%prefix% &cNincs elegendő pénzed a szelvény vásárlásához! Ennyi szükséges még: &f%szukseges%&c.'
+  nyert: '%prefix% &f%nyertes% &amegnyerte a lottót! Nyereménye: &f%nyeremeny%&a!'
+
+  info_varhato: '&a Várható főnyeremény: &f%varhato_fny%&a$.'
+  info_sorsolas: '&a Sorsolás &f%sorsolas%'
